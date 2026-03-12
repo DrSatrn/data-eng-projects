@@ -2,3 +2,4 @@ data-eng-camp-clone/
 .env
 *.parquet
 .DS_Store
+**/.DS_store
