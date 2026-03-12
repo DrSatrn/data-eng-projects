@@ -11,3 +11,4 @@ df['month'] = month
 print(df.head())
 
 print(f'hello pipeline, month={month}')
+df.to_parquet(f"this_is_a_parquet_file_{sys.argv[1]}.parquet")
